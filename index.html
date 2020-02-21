@@ -13,7 +13,11 @@
     <div id="container">
         <h1>Välkomen till iQueueing!</h1>
         <p>Skriv in ditt namn nedan och avvakta hjälp.</p>
-        <button id="skicka" type="submit" onclick="buttonTester()">Hjälp!</button>
+
+        <label for="name">Name: </label>
+        <input type="text" id="skicka" name="name"><br><br>
+
+        <button id="skicka" type="submit" onclick="AddName()">Hjälp!</button>
         
         <ol id="inQueue">
             <p>I kö:</p>
