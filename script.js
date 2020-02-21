@@ -47,17 +47,3 @@ function AddName()
             })
     })
 }
-function AddName()
-{
-    var newName = document.getElementById("skicka").value;
-
-    fetch('https://localhost:44352/api/queueitems',
-    {
-        headers: { "Content-Type": "application/json; charset=utf-8"},
-        method: 'POST',
-        body: JSON.stringify(
-            {
-                name: newName
-            })
-    })
-}
