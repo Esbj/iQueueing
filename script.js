@@ -1,4 +1,6 @@
-document.getElementById("skicka").onclick()
+function buttonTester(){
+    console.log("knapp fungerar");
+}
 
 function updateList()
 {
